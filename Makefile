@@ -7,7 +7,7 @@ help:             ## Show the help.
 
 .PHONY: run
 run:             ## Show the help.
-	uvicorn api.main:app --reload --host localhost
+	python -m uvicorn api.main:app --reload --host localhost
 
 .PHONY: install
 install:             ## Install the dependencies.
